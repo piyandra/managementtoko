@@ -30,6 +30,7 @@ Endpoint : '/registerkasir'
     'alamat' : "Neraka Jahanam"
     'no_hp' : "08816284582'
     'password' : 'maroon5'
+}
 ```
 
 ## Login
@@ -43,6 +44,7 @@ Endpoint : '/loginmember'
 {
     'nama' : 'adam'
     'password' : 'adamlevine'
+}
 ```
 
 ### Kasir
@@ -54,6 +56,7 @@ Endpoint : '/loginkasir'
 {
     'nama' : 'kasirneraka'
     'password' : 'adamlevine'
+}
 ```
 
 ## Dashboard 
@@ -99,4 +102,6 @@ Endpoint : '/member'
         'user_beli' : "adam"
         'nama_barang' : "SLOT"
         'jumlah' : "10"
+        }
+}
 ```
