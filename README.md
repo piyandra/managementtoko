@@ -76,6 +76,7 @@ Endpoint : '/admin'
         'nama_barang' : "SLOT"
         'deskripsi' : "Barang Slot"
         'stock' : "50"
+        'harga_satuan' : ""
         }
     'transaksi' : {
         'id_transaksi' : "15884"
@@ -83,6 +84,7 @@ Endpoint : '/admin'
         'user_beli' : "Adamantium"
         'waktu_beli' : "1713688121"
         'jumlah beli' : "15"
+        'harga_satuan' : ""
         }
 }
 ```
@@ -102,6 +104,7 @@ Endpoint : '/member'
         'user_beli' : "adam"
         'nama_barang' : "SLOT"
         'jumlah' : "10"
+        'harga_satuan' : ""
         }
 }
 ```
