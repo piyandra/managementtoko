@@ -1,0 +1,36 @@
+@startuml
+
+entity member {
+    * id varchar(255) <<PK>>
+    ---
+    * nama TEXT
+    * email TEXT
+    * alamat TEXT
+    * no_hp INT
+    * role ENUM(admin, member)
+    * password VARCHAR(255)
+}
+
+entity stock {
+    * id_barang INT <<PK>>
+    ---
+    * nama_barang TEXT
+    * deskripsi TEXT
+    * stok INT
+    * harga INT
+    * update INT
+}
+entity transaction {
+    * id_barang <<FK>>
+    * user_kasir <<FK>>
+    * user_beli <<FK>>
+    * id_transaksi INT AUTO INCREMENET
+    ---
+    * waktu_beli INT
+    * jumlah INT
+}
+member -> stock
+member -> transaction
+stock -> transaction
+
+@enduml
